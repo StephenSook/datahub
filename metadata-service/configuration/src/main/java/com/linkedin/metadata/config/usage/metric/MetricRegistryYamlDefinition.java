@@ -17,8 +17,6 @@ public interface MetricRegistryYamlDefinition {
   @Nullable
   String getValueUnit();
 
-  boolean isMetronomeBatch();
-
   @Nullable
   String getEmitWhen();
 }
